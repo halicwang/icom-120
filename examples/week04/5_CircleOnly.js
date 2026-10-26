@@ -1,11 +1,11 @@
-//size unit, used for scaling shapes
+// size unit, used for scaling shapes
 let unitW, unitH;
 
-//global variable for rotation
+// global variable for rotation
 let angle3;
 let rotSpeed3;
 
-//colorPalette
+// colorPalette
 let colorPal = ['#D73220','#F9ECE5','#68150A','#0B78B3','#1F0062'];
 let randCol1;
 

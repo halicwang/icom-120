@@ -1,14 +1,14 @@
-//colorPalette
+// colorPalette
 let colorPal = ['#D73220','#F9ECE5','#68150A','#0B78B3','#1F0062'];
 
-//size unit, used for scaling shapes
+// size unit, used for scaling shapes
 let unitW, unitH;
 
-//how many shapes to draw in each shrinking set, and the shared spacing step
+// how many shapes to draw in each shrinking set, and the shared spacing step
 let numShapes;
 let spacing;
 
-//global variable for rotation
+// global variable for rotation
 let angle1;
 let rotSpeed1;
 

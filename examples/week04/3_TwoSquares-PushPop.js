@@ -19,7 +19,7 @@ function draw() {
   strokeWeight(15);
   stroke(255);
 
-  //first square, starts fresh thanks to push and pop
+  // first square, starts fresh thanks to push and pop
   push();
   translate(width/3,height/2);
   rectMode(CENTER);
@@ -27,7 +27,7 @@ function draw() {
   rect(0,0,150,150);
   pop();
 
-  //second square, also starts fresh
+  // second square, also starts fresh
   push();
   translate((width/3)*2,height/2);
   rectMode(CENTER);

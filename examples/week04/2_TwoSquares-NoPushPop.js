@@ -19,13 +19,14 @@ function draw() {
   strokeWeight(15);
   stroke(255);
 
-  //first square, no push or pop
+  // without push/pop, translate and rotate keep affecting everything drawn after them
+  // first square, no push or pop
   translate(width/3,height/2);
   rectMode(CENTER);
   rotate(angle1);
   rect(0,0,150,150);
 
-  //second square, translate and rotate stack on top of the first
+  // second square, translate and rotate stack on top of the first
   translate(width/3,0);
   rectMode(CENTER);
   rotate(angle2);
